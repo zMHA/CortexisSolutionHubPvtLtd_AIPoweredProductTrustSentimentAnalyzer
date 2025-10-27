@@ -65,11 +65,9 @@ Companies monitoring customer trust in real-time.
 
 Organization: Cortexis Solution Hub Pvt Ltd
 
-Submitted By: Hasnain
+Submitted By: Muhammad Hasnain
 
 Submission Type: Internship Task
-
-Submission Date: Before 2nd November 2025
 
 🚀 Future Improvements
 
