@@ -1,97 +1,80 @@
-🧠 Cortexis Solution Hub Pvt Ltd — AI Internship Tasks
+🧠 AI-Powered Product Trust & Sentiment Analyzer
 
-This repository contains the AI-based projects completed as part of the Cortexis Solution Hub Pvt Ltd Internship Program.
-Each project demonstrates practical applications of Machine Learning, NLP, and AI-driven automation using Python and Hugging Face Spaces.
-
-🚀 Project 1: AI-Powered Product Trust & Sentiment Analyzer
+Cortexis Solution Hub Pvt Ltd — Internship Task Submission
 
 🔗 Live Demo: https://huggingface.co/spaces/zmha12/product-trust-analyzer
 
 🎯 Objective
 
-An AI system that automatically analyzes a product or website’s trust level, popularity, and sentiment based on real online reviews and customer feedback.
+This project aims to build an AI system that evaluates the trustworthiness and sentiment of a product or website based on real online reviews.
+It helps users quickly understand whether a product is reliable, popular, or potentially risky before making a purchase decision.
 
-⚙️ Key Features
+⚙️ How It Works
 
-Automated Review Collection: Extracts reviews and ratings from online sources.
+The user enters a product name or website URL.
 
-Sentiment Analysis: Classifies customer opinions as Positive, Neutral, or Negative using NLP models like BERT and Logistic Regression.
+The app retrieves or simulates customer reviews for that product.
 
-Trustworthiness Score: Generates a percentage-based trust score (0–100%) based on review quality, domain reputation, and user sentiment.
+Reviews are analyzed using Natural Language Processing (NLP) to determine positive, negative, or neutral sentiments.
 
-AI Recommendation: Suggests whether to “Buy”, “Avoid”, or “Be Careful”.
+Based on the results, the system generates a Trust Score (0–100%) and a recommendation message such as:
 
-Simple Frontend: User-friendly interface built for Hugging Face with Gradio.
+✅ Safe to Buy
 
-🧰 Tech Stack
+⚠️ Be Cautious
+
+❌ Not Recommended
+
+🌟 Key Features
+
+AI Sentiment Analysis – Understands tone and emotion in customer reviews.
+
+Trust Score Generator – Calculates how trustworthy a product appears based on sentiment.
+
+Popularity & Reliability Insights – Displays a summary of product reputation.
+
+Recommendation System – Suggests whether to buy or avoid.
+
+Interactive Interface – Simple, fast, and responsive design built using Gradio.
+
+🧠 Technology Stack
 
 Language: Python
 
-Libraries: Scikit-learn, Transformers, TensorFlow, BeautifulSoup
+Libraries:
 
-Interface: Gradio
+Transformers (BERT / DistilBERT)
+
+Scikit-learn
+
+NLTK
+
+Gradio
 
 Platform: Hugging Face Spaces
 
-💬 Project 2: AI Chatbot for Business FAQs (Smart Virtual Assistant)
+🧩 Use Cases
 
-🔗 Live Demo: https://huggingface.co/spaces/zmha12/ai-chatbot-faq
+E-commerce shoppers verifying product reliability before buying.
 
-🎯 Objective
+Digital marketers assessing product reputation trends.
 
-A smart virtual assistant that automatically answers customer FAQs about a company’s products, services, pricing, and policies — available 24/7 without human support.
+Companies monitoring customer trust in real-time.
 
-⚙️ Key Features
+🏁 Project Details
 
-Semantic Understanding: Uses Sentence Transformers (MiniLM) to understand meaning, not just keywords.
-
-Instant Answers: Finds the most relevant response from an uploaded FAQ knowledge base.
-
-Confidence Scoring: Displays how closely the user’s query matches an existing FAQ.
-
-Fallback Handling: Politely redirects unrecognized queries to a human representative.
-
-Live Chat Interface: Built with Gradio for seamless, real-time interaction.
-
-🧰 Tech Stack
-
-Language: Python
-
-Frameworks: Gradio, Sentence Transformers
-
-Model: all-MiniLM-L6-v2
-
-Hosting: Hugging Face Spaces
-
-🏁 Submission Details
-
-Internship Organization: Cortexis Solution Hub Pvt Ltd
+Organization: Cortexis Solution Hub Pvt Ltd
 
 Submitted By: Hasnain
 
+Submission Type: Internship Task
+
 Submission Date: Before 2nd November 2025
 
-Repository Name: CortexisSolutionHubPvtLtd_tasks
+🚀 Future Improvements
 
-🏅 Outcomes
+Integrate live review scraping from Amazon, Flipkart, and Trustpilot.
 
-Hands-on experience building AI-powered business tools.
+Include real-time charts for sentiment visualization.
 
-Deployed two complete projects on Hugging Face Spaces.
-
-Demonstrated real-world application of Machine Learning and Natural Language Processing.
-
-🧩 Future Enhancements
-
-Dynamic data upload for the chatbot (custom FAQs via JSON/CSV).
-
-Multilingual support for sentiment and FAQ understanding.
-
-Integration with company CRMs or e-commerce platforms.
-
-Real-time social media sentiment tracking for product trust analysis.
-
-
-
-Developer
-Muhammad Hasnain 
+Add multilingual sentiment detection for better global insights.
